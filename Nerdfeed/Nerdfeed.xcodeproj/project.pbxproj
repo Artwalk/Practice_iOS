@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E17BAC91941ADCB00DDEB7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E17BAC81941ADCB00DDEB7D /* Foundation.framework */; };
+		6E17BACB1941ADCB00DDEB7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E17BACA1941ADCB00DDEB7D /* CoreGraphics.framework */; };
+		6E17BACD1941ADCB00DDEB7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E17BACC1941ADCB00DDEB7D /* UIKit.framework */; };
+		6E17BAD31941ADCB00DDEB7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E17BAD11941ADCB00DDEB7D /* InfoPlist.strings */; };
+		6E17BAD51941ADCB00DDEB7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17BAD41941ADCB00DDEB7D /* main.m */; };
+		6E17BAD91941ADCB00DDEB7D /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17BAD81941ADCB00DDEB7D /* BNRAppDelegate.m */; };
+		6E17BADB1941ADCB00DDEB7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E17BADA1941ADCB00DDEB7D /* Images.xcassets */; };
+		6E17BAE21941ADCB00DDEB7D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E17BAE11941ADCB00DDEB7D /* XCTest.framework */; };
+		6E17BAE31941ADCB00DDEB7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E17BAC81941ADCB00DDEB7D /* Foundation.framework */; };
+		6E17BAE41941ADCB00DDEB7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E17BACC1941ADCB00DDEB7D /* UIKit.framework */; };
+		6E17BAEC1941ADCB00DDEB7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E17BAEA1941ADCB00DDEB7D /* InfoPlist.strings */; };
+		6E17BAEE1941ADCB00DDEB7D /* NerdfeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17BAED1941ADCB00DDEB7D /* NerdfeedTests.m */; };
+		6E4797B71942812800CFFFDC /* BNRCoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4797B61942812800CFFFDC /* BNRCoursesTableViewController.m */; };
+		6EB4059E1942E7300007E957 /* BNRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4059D1942E7300007E957 /* BNRWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E17BAE51941ADCB00DDEB7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E17BABD1941ADCB00DDEB7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E17BAC41941ADCB00DDEB7D;
+			remoteInfo = Nerdfeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E17BAC51941ADCB00DDEB7D /* Nerdfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nerdfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E17BAC81941ADCB00DDEB7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E17BACA1941ADCB00DDEB7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E17BACC1941ADCB00DDEB7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E17BAD01941ADCB00DDEB7D /* Nerdfeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nerdfeed-Info.plist"; sourceTree = "<group>"; };
+		6E17BAD21941ADCB00DDEB7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E17BAD41941ADCB00DDEB7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E17BAD61941ADCB00DDEB7D /* Nerdfeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nerdfeed-Prefix.pch"; sourceTree = "<group>"; };
+		6E17BAD71941ADCB00DDEB7D /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		6E17BAD81941ADCB00DDEB7D /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		6E17BADA1941ADCB00DDEB7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E17BAE01941ADCB00DDEB7D /* NerdfeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerdfeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E17BAE11941ADCB00DDEB7D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E17BAE91941ADCB00DDEB7D /* NerdfeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NerdfeedTests-Info.plist"; sourceTree = "<group>"; };
+		6E17BAEB1941ADCB00DDEB7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E17BAED1941ADCB00DDEB7D /* NerdfeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdfeedTests.m; sourceTree = "<group>"; };
+		6E4797B51942812800CFFFDC /* BNRCoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRCoursesTableViewController.h; sourceTree = "<group>"; };
+		6E4797B61942812800CFFFDC /* BNRCoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRCoursesTableViewController.m; sourceTree = "<group>"; };
+		6EB4059C1942E7300007E957 /* BNRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRWebViewController.h; sourceTree = "<group>"; };
+		6EB4059D1942E7300007E957 /* BNRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E17BAC21941ADCB00DDEB7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E17BACB1941ADCB00DDEB7D /* CoreGraphics.framework in Frameworks */,
+				6E17BACD1941ADCB00DDEB7D /* UIKit.framework in Frameworks */,
+				6E17BAC91941ADCB00DDEB7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E17BADD1941ADCB00DDEB7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E17BAE21941ADCB00DDEB7D /* XCTest.framework in Frameworks */,
+				6E17BAE41941ADCB00DDEB7D /* UIKit.framework in Frameworks */,
+				6E17BAE31941ADCB00DDEB7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E17BABC1941ADCB00DDEB7D = {
+			isa = PBXGroup;
+			children = (
+				6E17BACE1941ADCB00DDEB7D /* Nerdfeed */,
+				6E17BAE71941ADCB00DDEB7D /* NerdfeedTests */,
+				6E17BAC71941ADCB00DDEB7D /* Frameworks */,
+				6E17BAC61941ADCB00DDEB7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E17BAC61941ADCB00DDEB7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E17BAC51941ADCB00DDEB7D /* Nerdfeed.app */,
+				6E17BAE01941ADCB00DDEB7D /* NerdfeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E17BAC71941ADCB00DDEB7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E17BAC81941ADCB00DDEB7D /* Foundation.framework */,
+				6E17BACA1941ADCB00DDEB7D /* CoreGraphics.framework */,
+				6E17BACC1941ADCB00DDEB7D /* UIKit.framework */,
+				6E17BAE11941ADCB00DDEB7D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E17BACE1941ADCB00DDEB7D /* Nerdfeed */ = {
+			isa = PBXGroup;
+			children = (
+				6E17BAD71941ADCB00DDEB7D /* BNRAppDelegate.h */,
+				6E17BAD81941ADCB00DDEB7D /* BNRAppDelegate.m */,
+				6EB4059C1942E7300007E957 /* BNRWebViewController.h */,
+				6EB4059D1942E7300007E957 /* BNRWebViewController.m */,
+				6E4797B51942812800CFFFDC /* BNRCoursesTableViewController.h */,
+				6E4797B61942812800CFFFDC /* BNRCoursesTableViewController.m */,
+				6E17BADA1941ADCB00DDEB7D /* Images.xcassets */,
+				6E17BACF1941ADCB00DDEB7D /* Supporting Files */,
+			);
+			path = Nerdfeed;
+			sourceTree = "<group>";
+		};
+		6E17BACF1941ADCB00DDEB7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E17BAD01941ADCB00DDEB7D /* Nerdfeed-Info.plist */,
+				6E17BAD11941ADCB00DDEB7D /* InfoPlist.strings */,
+				6E17BAD41941ADCB00DDEB7D /* main.m */,
+				6E17BAD61941ADCB00DDEB7D /* Nerdfeed-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E17BAE71941ADCB00DDEB7D /* NerdfeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E17BAED1941ADCB00DDEB7D /* NerdfeedTests.m */,
+				6E17BAE81941ADCB00DDEB7D /* Supporting Files */,
+			);
+			path = NerdfeedTests;
+			sourceTree = "<group>";
+		};
+		6E17BAE81941ADCB00DDEB7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E17BAE91941ADCB00DDEB7D /* NerdfeedTests-Info.plist */,
+				6E17BAEA1941ADCB00DDEB7D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E17BAC41941ADCB00DDEB7D /* Nerdfeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E17BAF11941ADCB00DDEB7D /* Build configuration list for PBXNativeTarget "Nerdfeed" */;
+			buildPhases = (
+				6E17BAC11941ADCB00DDEB7D /* Sources */,
+				6E17BAC21941ADCB00DDEB7D /* Frameworks */,
+				6E17BAC31941ADCB00DDEB7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nerdfeed;
+			productName = Nerdfeed;
+			productReference = 6E17BAC51941ADCB00DDEB7D /* Nerdfeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E17BADF1941ADCB00DDEB7D /* NerdfeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E17BAF41941ADCB00DDEB7D /* Build configuration list for PBXNativeTarget "NerdfeedTests" */;
+			buildPhases = (
+				6E17BADC1941ADCB00DDEB7D /* Sources */,
+				6E17BADD1941ADCB00DDEB7D /* Frameworks */,
+				6E17BADE1941ADCB00DDEB7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E17BAE61941ADCB00DDEB7D /* PBXTargetDependency */,
+			);
+			name = NerdfeedTests;
+			productName = NerdfeedTests;
+			productReference = 6E17BAE01941ADCB00DDEB7D /* NerdfeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E17BABD1941ADCB00DDEB7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = artwalk;
+				TargetAttributes = {
+					6E17BADF1941ADCB00DDEB7D = {
+						TestTargetID = 6E17BAC41941ADCB00DDEB7D;
+					};
+				};
+			};
+			buildConfigurationList = 6E17BAC01941ADCB00DDEB7D /* Build configuration list for PBXProject "Nerdfeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E17BABC1941ADCB00DDEB7D;
+			productRefGroup = 6E17BAC61941ADCB00DDEB7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E17BAC41941ADCB00DDEB7D /* Nerdfeed */,
+				6E17BADF1941ADCB00DDEB7D /* NerdfeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E17BAC31941ADCB00DDEB7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E17BAD31941ADCB00DDEB7D /* InfoPlist.strings in Resources */,
+				6E17BADB1941ADCB00DDEB7D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E17BADE1941ADCB00DDEB7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E17BAEC1941ADCB00DDEB7D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E17BAC11941ADCB00DDEB7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB4059E1942E7300007E957 /* BNRWebViewController.m in Sources */,
+				6E4797B71942812800CFFFDC /* BNRCoursesTableViewController.m in Sources */,
+				6E17BAD51941ADCB00DDEB7D /* main.m in Sources */,
+				6E17BAD91941ADCB00DDEB7D /* BNRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E17BADC1941ADCB00DDEB7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E17BAEE1941ADCB00DDEB7D /* NerdfeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E17BAE61941ADCB00DDEB7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E17BAC41941ADCB00DDEB7D /* Nerdfeed */;
+			targetProxy = 6E17BAE51941ADCB00DDEB7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E17BAD11941ADCB00DDEB7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E17BAD21941ADCB00DDEB7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E17BAEA1941ADCB00DDEB7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E17BAEB1941ADCB00DDEB7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E17BAEF1941ADCB00DDEB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6E17BAF01941ADCB00DDEB7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E17BAF21941ADCB00DDEB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nerdfeed/Nerdfeed-Prefix.pch";
+				INFOPLIST_FILE = "Nerdfeed/Nerdfeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E17BAF31941ADCB00DDEB7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nerdfeed/Nerdfeed-Prefix.pch";
+				INFOPLIST_FILE = "Nerdfeed/Nerdfeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E17BAF51941ADCB00DDEB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nerdfeed.app/Nerdfeed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nerdfeed/Nerdfeed-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NerdfeedTests/NerdfeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E17BAF61941ADCB00DDEB7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nerdfeed.app/Nerdfeed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nerdfeed/Nerdfeed-Prefix.pch";
+				INFOPLIST_FILE = "NerdfeedTests/NerdfeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E17BAC01941ADCB00DDEB7D /* Build configuration list for PBXProject "Nerdfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E17BAEF1941ADCB00DDEB7D /* Debug */,
+				6E17BAF01941ADCB00DDEB7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E17BAF11941ADCB00DDEB7D /* Build configuration list for PBXNativeTarget "Nerdfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E17BAF21941ADCB00DDEB7D /* Debug */,
+				6E17BAF31941ADCB00DDEB7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E17BAF41941ADCB00DDEB7D /* Build configuration list for PBXNativeTarget "NerdfeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E17BAF51941ADCB00DDEB7D /* Debug */,
+				6E17BAF61941ADCB00DDEB7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E17BABD1941ADCB00DDEB7D /* Project object */;
+}

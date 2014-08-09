@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>a</string>
+		<key>artist</key>
+		<string>1</string>
+		<key>summary</key>
+		<string>a1</string>
+		<key>price</key>
+		<integer>1</integer>
+		<key>locationInStore</key>
+		<string>A</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>b</string>
+		<key>artist</key>
+		<string>2</string>
+		<key>summary</key>
+		<string>b2</string>
+		<key>price</key>
+		<integer>0</integer>
+		<key>locationInStore</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Squish</string>
+		<key>artist</key>
+		<string>the Bugz</string>
+		<key>summary</key>
+		<string>Not your average fly by night band.</string>
+		<key>price</key>
+		<real>8.99</real>
+		<key>locationInStore</key>
+		<string>Section A</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Acid Fog</string>
+		<key>artist</key>
+		<string>Josh and Chuck</string>
+		<key>summary</key>
+		<string>You should know this stuff.</string>
+		<key>price</key>
+		<real>11.99</real>
+		<key>locationInStore</key>
+		<string>Section 9 3/4</string>
+	</dict>
+</array>
+</plist>

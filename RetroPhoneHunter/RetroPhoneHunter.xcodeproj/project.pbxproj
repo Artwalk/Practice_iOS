@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E6939CA1933171B00BDECA5 /* RetroPhoneHunter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E6939C81933171B00BDECA5 /* RetroPhoneHunter.xcdatamodeld */; };
+		6E6939CD193317C300BDECA5 /* PhoneBooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6939CC193317C300BDECA5 /* PhoneBooth.m */; };
+		6E8A90971932EFB200A860AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8A90961932EFB200A860AE /* Foundation.framework */; };
+		6E8A90991932EFB200A860AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8A90981932EFB200A860AE /* CoreGraphics.framework */; };
+		6E8A909B1932EFB200A860AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8A909A1932EFB200A860AE /* UIKit.framework */; };
+		6E8A90A11932EFB200A860AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A909F1932EFB200A860AE /* InfoPlist.strings */; };
+		6E8A90A31932EFB200A860AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A90A21932EFB200A860AE /* main.m */; };
+		6E8A90A71932EFB200A860AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A90A61932EFB200A860AE /* AppDelegate.m */; };
+		6E8A90AA1932EFB200A860AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A90A81932EFB200A860AE /* Main.storyboard */; };
+		6E8A90AD1932EFB200A860AE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A90AC1932EFB200A860AE /* MasterViewController.m */; };
+		6E8A90B01932EFB200A860AE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A90AF1932EFB200A860AE /* DetailViewController.m */; };
+		6E8A90B21932EFB200A860AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A90B11932EFB200A860AE /* Images.xcassets */; };
+		6E8A90B91932EFB300A860AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8A90B81932EFB300A860AE /* XCTest.framework */; };
+		6E8A90BA1932EFB300A860AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8A90961932EFB200A860AE /* Foundation.framework */; };
+		6E8A90BB1932EFB300A860AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8A909A1932EFB200A860AE /* UIKit.framework */; };
+		6E8A90C31932EFB300A860AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A90C11932EFB300A860AE /* InfoPlist.strings */; };
+		6E8A90C51932EFB300A860AE /* RetroPhoneHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A90C41932EFB300A860AE /* RetroPhoneHunterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8A90BC1932EFB300A860AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8A908B1932EFB200A860AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8A90921932EFB200A860AE;
+			remoteInfo = RetroPhoneHunter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E6939C91933171B00BDECA5 /* RetroPhoneHunter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetroPhoneHunter.xcdatamodel; sourceTree = "<group>"; };
+		6E6939CB193317C300BDECA5 /* PhoneBooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneBooth.h; sourceTree = "<group>"; };
+		6E6939CC193317C300BDECA5 /* PhoneBooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneBooth.m; sourceTree = "<group>"; };
+		6E8A90931932EFB200A860AE /* RetroPhoneHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroPhoneHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8A90961932EFB200A860AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E8A90981932EFB200A860AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E8A909A1932EFB200A860AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E8A909E1932EFB200A860AE /* RetroPhoneHunter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RetroPhoneHunter-Info.plist"; sourceTree = "<group>"; };
+		6E8A90A01932EFB200A860AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E8A90A21932EFB200A860AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E8A90A41932EFB200A860AE /* RetroPhoneHunter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RetroPhoneHunter-Prefix.pch"; sourceTree = "<group>"; };
+		6E8A90A51932EFB200A860AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E8A90A61932EFB200A860AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E8A90A91932EFB200A860AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E8A90AB1932EFB200A860AE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		6E8A90AC1932EFB200A860AE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		6E8A90AE1932EFB200A860AE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6E8A90AF1932EFB200A860AE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6E8A90B11932EFB200A860AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E8A90B71932EFB300A860AE /* RetroPhoneHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroPhoneHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8A90B81932EFB300A860AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E8A90C01932EFB300A860AE /* RetroPhoneHunterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RetroPhoneHunterTests-Info.plist"; sourceTree = "<group>"; };
+		6E8A90C21932EFB300A860AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E8A90C41932EFB300A860AE /* RetroPhoneHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetroPhoneHunterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E8A90901932EFB200A860AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A90991932EFB200A860AE /* CoreGraphics.framework in Frameworks */,
+				6E8A909B1932EFB200A860AE /* UIKit.framework in Frameworks */,
+				6E8A90971932EFB200A860AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A90B41932EFB300A860AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A90B91932EFB300A860AE /* XCTest.framework in Frameworks */,
+				6E8A90BB1932EFB300A860AE /* UIKit.framework in Frameworks */,
+				6E8A90BA1932EFB300A860AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E8A908A1932EFB200A860AE = {
+			isa = PBXGroup;
+			children = (
+				6E8A909C1932EFB200A860AE /* RetroPhoneHunter */,
+				6E8A90BE1932EFB300A860AE /* RetroPhoneHunterTests */,
+				6E8A90951932EFB200A860AE /* Frameworks */,
+				6E8A90941932EFB200A860AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E8A90941932EFB200A860AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A90931932EFB200A860AE /* RetroPhoneHunter.app */,
+				6E8A90B71932EFB300A860AE /* RetroPhoneHunterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8A90951932EFB200A860AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A90961932EFB200A860AE /* Foundation.framework */,
+				6E8A90981932EFB200A860AE /* CoreGraphics.framework */,
+				6E8A909A1932EFB200A860AE /* UIKit.framework */,
+				6E8A90B81932EFB300A860AE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E8A909C1932EFB200A860AE /* RetroPhoneHunter */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A90A51932EFB200A860AE /* AppDelegate.h */,
+				6E8A90A61932EFB200A860AE /* AppDelegate.m */,
+				6E8A90A81932EFB200A860AE /* Main.storyboard */,
+				6E6939C81933171B00BDECA5 /* RetroPhoneHunter.xcdatamodeld */,
+				6E6939CB193317C300BDECA5 /* PhoneBooth.h */,
+				6E6939CC193317C300BDECA5 /* PhoneBooth.m */,
+				6E8A90AB1932EFB200A860AE /* MasterViewController.h */,
+				6E8A90AC1932EFB200A860AE /* MasterViewController.m */,
+				6E8A90AE1932EFB200A860AE /* DetailViewController.h */,
+				6E8A90AF1932EFB200A860AE /* DetailViewController.m */,
+				6E8A90B11932EFB200A860AE /* Images.xcassets */,
+				6E8A909D1932EFB200A860AE /* Supporting Files */,
+			);
+			path = RetroPhoneHunter;
+			sourceTree = "<group>";
+		};
+		6E8A909D1932EFB200A860AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A909E1932EFB200A860AE /* RetroPhoneHunter-Info.plist */,
+				6E8A909F1932EFB200A860AE /* InfoPlist.strings */,
+				6E8A90A21932EFB200A860AE /* main.m */,
+				6E8A90A41932EFB200A860AE /* RetroPhoneHunter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E8A90BE1932EFB300A860AE /* RetroPhoneHunterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A90C41932EFB300A860AE /* RetroPhoneHunterTests.m */,
+				6E8A90BF1932EFB300A860AE /* Supporting Files */,
+			);
+			path = RetroPhoneHunterTests;
+			sourceTree = "<group>";
+		};
+		6E8A90BF1932EFB300A860AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A90C01932EFB300A860AE /* RetroPhoneHunterTests-Info.plist */,
+				6E8A90C11932EFB300A860AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E8A90921932EFB200A860AE /* RetroPhoneHunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8A90C81932EFB300A860AE /* Build configuration list for PBXNativeTarget "RetroPhoneHunter" */;
+			buildPhases = (
+				6E8A908F1932EFB200A860AE /* Sources */,
+				6E8A90901932EFB200A860AE /* Frameworks */,
+				6E8A90911932EFB200A860AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroPhoneHunter;
+			productName = RetroPhoneHunter;
+			productReference = 6E8A90931932EFB200A860AE /* RetroPhoneHunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E8A90B61932EFB300A860AE /* RetroPhoneHunterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8A90CB1932EFB300A860AE /* Build configuration list for PBXNativeTarget "RetroPhoneHunterTests" */;
+			buildPhases = (
+				6E8A90B31932EFB300A860AE /* Sources */,
+				6E8A90B41932EFB300A860AE /* Frameworks */,
+				6E8A90B51932EFB300A860AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8A90BD1932EFB300A860AE /* PBXTargetDependency */,
+			);
+			name = RetroPhoneHunterTests;
+			productName = RetroPhoneHunterTests;
+			productReference = 6E8A90B71932EFB300A860AE /* RetroPhoneHunterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E8A908B1932EFB200A860AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = artwalk;
+				TargetAttributes = {
+					6E8A90B61932EFB300A860AE = {
+						TestTargetID = 6E8A90921932EFB200A860AE;
+					};
+				};
+			};
+			buildConfigurationList = 6E8A908E1932EFB200A860AE /* Build configuration list for PBXProject "RetroPhoneHunter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E8A908A1932EFB200A860AE;
+			productRefGroup = 6E8A90941932EFB200A860AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E8A90921932EFB200A860AE /* RetroPhoneHunter */,
+				6E8A90B61932EFB300A860AE /* RetroPhoneHunterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E8A90911932EFB200A860AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A90B21932EFB200A860AE /* Images.xcassets in Resources */,
+				6E8A90A11932EFB200A860AE /* InfoPlist.strings in Resources */,
+				6E8A90AA1932EFB200A860AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A90B51932EFB300A860AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A90C31932EFB300A860AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E8A908F1932EFB200A860AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A90A71932EFB200A860AE /* AppDelegate.m in Sources */,
+				6E8A90AD1932EFB200A860AE /* MasterViewController.m in Sources */,
+				6E8A90A31932EFB200A860AE /* main.m in Sources */,
+				6E6939CD193317C300BDECA5 /* PhoneBooth.m in Sources */,
+				6E6939CA1933171B00BDECA5 /* RetroPhoneHunter.xcdatamodeld in Sources */,
+				6E8A90B01932EFB200A860AE /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8A90B31932EFB300A860AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8A90C51932EFB300A860AE /* RetroPhoneHunterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E8A90BD1932EFB300A860AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8A90921932EFB200A860AE /* RetroPhoneHunter */;
+			targetProxy = 6E8A90BC1932EFB300A860AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E8A909F1932EFB200A860AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8A90A01932EFB200A860AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E8A90A81932EFB200A860AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8A90A91932EFB200A860AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E8A90C11932EFB300A860AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8A90C21932EFB300A860AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E8A90C61932EFB300A860AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6E8A90C71932EFB300A860AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E8A90C91932EFB300A860AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RetroPhoneHunter/RetroPhoneHunter-Prefix.pch";
+				INFOPLIST_FILE = "RetroPhoneHunter/RetroPhoneHunter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E8A90CA1932EFB300A860AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RetroPhoneHunter/RetroPhoneHunter-Prefix.pch";
+				INFOPLIST_FILE = "RetroPhoneHunter/RetroPhoneHunter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E8A90CC1932EFB300A860AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RetroPhoneHunter.app/RetroPhoneHunter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RetroPhoneHunter/RetroPhoneHunter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RetroPhoneHunterTests/RetroPhoneHunterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E8A90CD1932EFB300A860AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RetroPhoneHunter.app/RetroPhoneHunter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RetroPhoneHunter/RetroPhoneHunter-Prefix.pch";
+				INFOPLIST_FILE = "RetroPhoneHunterTests/RetroPhoneHunterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E8A908E1932EFB200A860AE /* Build configuration list for PBXProject "RetroPhoneHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8A90C61932EFB300A860AE /* Debug */,
+				6E8A90C71932EFB300A860AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8A90C81932EFB300A860AE /* Build configuration list for PBXNativeTarget "RetroPhoneHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8A90C91932EFB300A860AE /* Debug */,
+				6E8A90CA1932EFB300A860AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8A90CB1932EFB300A860AE /* Build configuration list for PBXNativeTarget "RetroPhoneHunterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8A90CC1932EFB300A860AE /* Debug */,
+				6E8A90CD1932EFB300A860AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E6939C81933171B00BDECA5 /* RetroPhoneHunter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E6939C91933171B00BDECA5 /* RetroPhoneHunter.xcdatamodel */,
+			);
+			currentVersion = 6E6939C91933171B00BDECA5 /* RetroPhoneHunter.xcdatamodel */;
+			path = RetroPhoneHunter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E8A908B1932EFB200A860AE /* Project object */;
+}

@@ -168,6 +168,26 @@ const NSTimeInterval kAnimationDuration = 0.50;
     return [self allImages][arc4random_uniform([self allImages].count)];
 }
 
+- (BOOL)collectionView:(UICollectionView *)collectionView shouldShowMenuForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
+- (BOOL)collectionView:(UICollectionView *)collectionView canPerformAction:(SEL)action forItemAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender {
+    if (action == @selector(copy:)) {
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView performAction:(SEL)action forItemAtIndexPath:(NSIndexPath *)indexPath withSender:(id)sender {
+    if (action == @selector(copy:)) {
+        MyCollectionViewCell *cell = (MyCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+        
+        [[UIPasteboard generalPasteboard] setImage:cell.imageViewBackgroundImage.image];
+    }
+}
+
 /*
 #pragma mark - Navigation
 

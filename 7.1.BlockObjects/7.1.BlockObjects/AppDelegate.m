@@ -8,8 +8,7 @@
 
 #import "AppDelegate.h"
 
-// c style
-
+typedef NSString* (^IntToStringConverter)(NSUInteger paramInterger);
 
 @implementation AppDelegate
 
@@ -19,24 +18,56 @@
     return paramFrom - paramValue;
 }
 
+- (NSString *)intToString:(NSUInteger)paramInterger {
+    return [NSString stringWithFormat:@"%lu", (unsigned long) paramInterger];
+}
+
 // c style
+/*
 NSInteger subtract(NSInteger paramValue, NSInteger paramFrom) {
     return paramFrom - paramValue;
 }
 
+NSString * intToString(NSUInteger paramInterger) {
+    return [NSString stringWithFormat:@"%lu", (unsigned long) paramInterger];
+}
+*/
+
 // block style
-NSInteger (^substract)(NSInteger, NSInteger) = ^(NSInteger paramValue, NSInteger paramFrom) {
+NSInteger (^subtract)(NSInteger, NSInteger) = ^(NSInteger paramValue, NSInteger paramFrom) {
     return paramFrom - paramValue;
 };
 
+NSString* (^intToString)(NSUInteger) = ^(NSUInteger paramInterger) {
+    NSString *result = [NSString stringWithFormat:@"%lu", (unsigned long) paramInterger];
+    
+    return result;
+};
+
+- (NSString *)converIntToString:(NSUInteger)paramInterger usingBlockObject:(IntToStringConverter)paramBlockObject {
+    return paramBlockObject(paramInterger);
+}
+
+#pragma mark -
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSInteger num = [self subtract:10 from:20];
-    NSLog(@"%d", num);
-    num = subtract(100, 200);
-    NSLog(@"%d", num);
+    NSInteger num = [self subtract:0 from:0];
+    NSLog(@"obj-c: %d %@", num, [self intToString:num]);
     
-    num = 
+    num = subtract(0, 0);
+    NSLog(@"using block: %d %@", num, intToString(num));
+    
+    IntToStringConverter inlineConverter = ^(NSUInteger paramInterger) {
+        NSString *result = [NSString stringWithFormat:@"%lu", (unsigned long) paramInterger];
+        return result;
+    };
+    NSLog(@"%@", [self converIntToString:12 usingBlockObject:inlineConverter]);
+    
+    NSLog(@"%@", [self converIntToString:123 usingBlockObject:^NSString *(NSUInteger paramInterger) {
+        NSString *result = [NSString stringWithFormat:@"%lu", (unsigned long) paramInterger];
+        return result;
+    }]);
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.

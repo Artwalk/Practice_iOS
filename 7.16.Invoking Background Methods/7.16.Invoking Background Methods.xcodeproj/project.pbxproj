@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EA0EAC0199CBCB900127845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0EABF199CBCB900127845 /* Foundation.framework */; };
+		6EA0EAC2199CBCB900127845 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0EAC1199CBCB900127845 /* CoreGraphics.framework */; };
+		6EA0EAC4199CBCB900127845 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0EAC3199CBCB900127845 /* UIKit.framework */; };
+		6EA0EACA199CBCBA00127845 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0EAC8199CBCBA00127845 /* InfoPlist.strings */; };
+		6EA0EACC199CBCBA00127845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0EACB199CBCBA00127845 /* main.m */; };
+		6EA0EAD0199CBCBA00127845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0EACF199CBCBA00127845 /* AppDelegate.m */; };
+		6EA0EAD3199CBCBA00127845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0EAD1199CBCBA00127845 /* Main.storyboard */; };
+		6EA0EAD6199CBCBA00127845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0EAD5199CBCBA00127845 /* ViewController.m */; };
+		6EA0EAD8199CBCBA00127845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0EAD7199CBCBA00127845 /* Images.xcassets */; };
+		6EA0EADF199CBCBA00127845 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0EADE199CBCBA00127845 /* XCTest.framework */; };
+		6EA0EAE0199CBCBA00127845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0EABF199CBCB900127845 /* Foundation.framework */; };
+		6EA0EAE1199CBCBA00127845 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0EAC3199CBCB900127845 /* UIKit.framework */; };
+		6EA0EAE9199CBCBA00127845 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0EAE7199CBCBA00127845 /* InfoPlist.strings */; };
+		6EA0EAEB199CBCBA00127845 /* __16_Invoking_Background_MethodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0EAEA199CBCBA00127845 /* __16_Invoking_Background_MethodsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EA0EAE2199CBCBA00127845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA0EAB4199CBCB900127845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA0EABB199CBCB900127845;
+			remoteInfo = "7.16.Invoking Background Methods";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EA0EABC199CBCB900127845 /* 7.16.Invoking Background Methods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7.16.Invoking Background Methods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA0EABF199CBCB900127845 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EA0EAC1199CBCB900127845 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EA0EAC3199CBCB900127845 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EA0EAC7199CBCBA00127845 /* 7.16.Invoking Background Methods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "7.16.Invoking Background Methods-Info.plist"; sourceTree = "<group>"; };
+		6EA0EAC9199CBCBA00127845 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EA0EACB199CBCBA00127845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EA0EACD199CBCBA00127845 /* 7.16.Invoking Background Methods-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7.16.Invoking Background Methods-Prefix.pch"; sourceTree = "<group>"; };
+		6EA0EACE199CBCBA00127845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EA0EACF199CBCBA00127845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EA0EAD2199CBCBA00127845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EA0EAD4199CBCBA00127845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EA0EAD5199CBCBA00127845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EA0EAD7199CBCBA00127845 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EA0EADD199CBCBA00127845 /* 7.16.Invoking Background MethodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7.16.Invoking Background MethodsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA0EADE199CBCBA00127845 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6EA0EAE6199CBCBA00127845 /* 7.16.Invoking Background MethodsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "7.16.Invoking Background MethodsTests-Info.plist"; sourceTree = "<group>"; };
+		6EA0EAE8199CBCBA00127845 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EA0EAEA199CBCBA00127845 /* __16_Invoking_Background_MethodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __16_Invoking_Background_MethodsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EA0EAB9199CBCB900127845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA0EAC2199CBCB900127845 /* CoreGraphics.framework in Frameworks */,
+				6EA0EAC4199CBCB900127845 /* UIKit.framework in Frameworks */,
+				6EA0EAC0199CBCB900127845 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA0EADA199CBCBA00127845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA0EADF199CBCBA00127845 /* XCTest.framework in Frameworks */,
+				6EA0EAE1199CBCBA00127845 /* UIKit.framework in Frameworks */,
+				6EA0EAE0199CBCBA00127845 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EA0EAB3199CBCB900127845 = {
+			isa = PBXGroup;
+			children = (
+				6EA0EAC5199CBCBA00127845 /* 7.16.Invoking Background Methods */,
+				6EA0EAE4199CBCBA00127845 /* 7.16.Invoking Background MethodsTests */,
+				6EA0EABE199CBCB900127845 /* Frameworks */,
+				6EA0EABD199CBCB900127845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EA0EABD199CBCB900127845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EA0EABC199CBCB900127845 /* 7.16.Invoking Background Methods.app */,
+				6EA0EADD199CBCBA00127845 /* 7.16.Invoking Background MethodsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EA0EABE199CBCB900127845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EA0EABF199CBCB900127845 /* Foundation.framework */,
+				6EA0EAC1199CBCB900127845 /* CoreGraphics.framework */,
+				6EA0EAC3199CBCB900127845 /* UIKit.framework */,
+				6EA0EADE199CBCBA00127845 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EA0EAC5199CBCBA00127845 /* 7.16.Invoking Background Methods */ = {
+			isa = PBXGroup;
+			children = (
+				6EA0EACE199CBCBA00127845 /* AppDelegate.h */,
+				6EA0EACF199CBCBA00127845 /* AppDelegate.m */,
+				6EA0EAD1199CBCBA00127845 /* Main.storyboard */,
+				6EA0EAD4199CBCBA00127845 /* ViewController.h */,
+				6EA0EAD5199CBCBA00127845 /* ViewController.m */,
+				6EA0EAD7199CBCBA00127845 /* Images.xcassets */,
+				6EA0EAC6199CBCBA00127845 /* Supporting Files */,
+			);
+			path = "7.16.Invoking Background Methods";
+			sourceTree = "<group>";
+		};
+		6EA0EAC6199CBCBA00127845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EA0EAC7199CBCBA00127845 /* 7.16.Invoking Background Methods-Info.plist */,
+				6EA0EAC8199CBCBA00127845 /* InfoPlist.strings */,
+				6EA0EACB199CBCBA00127845 /* main.m */,
+				6EA0EACD199CBCBA00127845 /* 7.16.Invoking Background Methods-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EA0EAE4199CBCBA00127845 /* 7.16.Invoking Background MethodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA0EAEA199CBCBA00127845 /* __16_Invoking_Background_MethodsTests.m */,
+				6EA0EAE5199CBCBA00127845 /* Supporting Files */,
+			);
+			path = "7.16.Invoking Background MethodsTests";
+			sourceTree = "<group>";
+		};
+		6EA0EAE5199CBCBA00127845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EA0EAE6199CBCBA00127845 /* 7.16.Invoking Background MethodsTests-Info.plist */,
+				6EA0EAE7199CBCBA00127845 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EA0EABB199CBCB900127845 /* 7.16.Invoking Background Methods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA0EAEE199CBCBA00127845 /* Build configuration list for PBXNativeTarget "7.16.Invoking Background Methods" */;
+			buildPhases = (
+				6EA0EAB8199CBCB900127845 /* Sources */,
+				6EA0EAB9199CBCB900127845 /* Frameworks */,
+				6EA0EABA199CBCB900127845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7.16.Invoking Background Methods";
+			productName = "7.16.Invoking Background Methods";
+			productReference = 6EA0EABC199CBCB900127845 /* 7.16.Invoking Background Methods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EA0EADC199CBCBA00127845 /* 7.16.Invoking Background MethodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA0EAF1199CBCBA00127845 /* Build configuration list for PBXNativeTarget "7.16.Invoking Background MethodsTests" */;
+			buildPhases = (
+				6EA0EAD9199CBCBA00127845 /* Sources */,
+				6EA0EADA199CBCBA00127845 /* Frameworks */,
+				6EA0EADB199CBCBA00127845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA0EAE3199CBCBA00127845 /* PBXTargetDependency */,
+			);
+			name = "7.16.Invoking Background MethodsTests";
+			productName = "7.16.Invoking Background MethodsTests";
+			productReference = 6EA0EADD199CBCBA00127845 /* 7.16.Invoking Background MethodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EA0EAB4199CBCB900127845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = artwalk;
+				TargetAttributes = {
+					6EA0EADC199CBCBA00127845 = {
+						TestTargetID = 6EA0EABB199CBCB900127845;
+					};
+				};
+			};
+			buildConfigurationList = 6EA0EAB7199CBCB900127845 /* Build configuration list for PBXProject "7.16.Invoking Background Methods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EA0EAB3199CBCB900127845;
+			productRefGroup = 6EA0EABD199CBCB900127845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EA0EABB199CBCB900127845 /* 7.16.Invoking Background Methods */,
+				6EA0EADC199CBCBA00127845 /* 7.16.Invoking Background MethodsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EA0EABA199CBCB900127845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA0EAD8199CBCBA00127845 /* Images.xcassets in Resources */,
+				6EA0EACA199CBCBA00127845 /* InfoPlist.strings in Resources */,
+				6EA0EAD3199CBCBA00127845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA0EADB199CBCBA00127845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA0EAE9199CBCBA00127845 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EA0EAB8199CBCB900127845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA0EAD6199CBCBA00127845 /* ViewController.m in Sources */,
+				6EA0EAD0199CBCBA00127845 /* AppDelegate.m in Sources */,
+				6EA0EACC199CBCBA00127845 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA0EAD9199CBCBA00127845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA0EAEB199CBCBA00127845 /* __16_Invoking_Background_MethodsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EA0EAE3199CBCBA00127845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA0EABB199CBCB900127845 /* 7.16.Invoking Background Methods */;
+			targetProxy = 6EA0EAE2199CBCBA00127845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EA0EAC8199CBCBA00127845 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EA0EAC9199CBCBA00127845 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EA0EAD1199CBCBA00127845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EA0EAD2199CBCBA00127845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EA0EAE7199CBCBA00127845 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EA0EAE8199CBCBA00127845 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EA0EAEC199CBCBA00127845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EA0EAED199CBCBA00127845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EA0EAEF199CBCBA00127845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "7.16.Invoking Background Methods/7.16.Invoking Background Methods-Prefix.pch";
+				INFOPLIST_FILE = "7.16.Invoking Background Methods/7.16.Invoking Background Methods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EA0EAF0199CBCBA00127845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "7.16.Invoking Background Methods/7.16.Invoking Background Methods-Prefix.pch";
+				INFOPLIST_FILE = "7.16.Invoking Background Methods/7.16.Invoking Background Methods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6EA0EAF2199CBCBA00127845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/7.16.Invoking Background Methods.app/7.16.Invoking Background Methods";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "7.16.Invoking Background Methods/7.16.Invoking Background Methods-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "7.16.Invoking Background MethodsTests/7.16.Invoking Background MethodsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6EA0EAF3199CBCBA00127845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/7.16.Invoking Background Methods.app/7.16.Invoking Background Methods";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "7.16.Invoking Background Methods/7.16.Invoking Background Methods-Prefix.pch";
+				INFOPLIST_FILE = "7.16.Invoking Background MethodsTests/7.16.Invoking Background MethodsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EA0EAB7199CBCB900127845 /* Build configuration list for PBXProject "7.16.Invoking Background Methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA0EAEC199CBCBA00127845 /* Debug */,
+				6EA0EAED199CBCBA00127845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA0EAEE199CBCBA00127845 /* Build configuration list for PBXNativeTarget "7.16.Invoking Background Methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA0EAEF199CBCBA00127845 /* Debug */,
+				6EA0EAF0199CBCBA00127845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EA0EAF1199CBCBA00127845 /* Build configuration list for PBXNativeTarget "7.16.Invoking Background MethodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA0EAF2199CBCBA00127845 /* Debug */,
+				6EA0EAF3199CBCBA00127845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EA0EAB4199CBCB900127845 /* Project object */;
+}

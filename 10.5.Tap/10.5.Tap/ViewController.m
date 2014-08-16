@@ -28,10 +28,9 @@
 }
 
 - (IBAction)handleTaps:(UITapGestureRecognizer *)sender {
-    NSLog(@"hehe");
-    for (int i = 0; i < sender.numberOfTapsRequired; ++i) {
+    for (int i = 0; i < sender.numberOfTouchesRequired; ++i) {
         CGPoint touchPoint = [sender locationOfTouch:i inView:sender.view];
-        NSLog(@"#%d, %@", i+i, NSStringFromCGPoint(touchPoint));
+        NSLog(@"#%d, %@", i+1, NSStringFromCGPoint(touchPoint));
     }
 }
 

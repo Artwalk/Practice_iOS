@@ -15,20 +15,31 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hehe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMl-TM-3pP">
+                                <rect key="frame" x="141" y="273" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="lBC-vn-W5k" appends="YES" id="l3Q-fL-2l0"/>
+                            <outletCollection property="gestureRecognizers" destination="GRv-WL-8nx" appends="YES" id="MTE-qp-0wf"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="aMl-TM-3pP" id="xtZ-LZ-1h5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer numberOfTapsRequired="3" numberOfTouchesRequired="2" id="lBC-vn-W5k">
+                <pinchGestureRecognizer id="GRv-WL-8nx">
                     <connections>
-                        <action selector="handleTaps:" destination="vXZ-lx-hvc" id="a69-Sw-cM6"/>
-                        <outlet property="delegate" destination="vXZ-lx-hvc" id="uw4-rz-FYQ"/>
+                        <action selector="handlePinches:" destination="vXZ-lx-hvc" id="OZy-Ah-Ptd"/>
                     </connections>
-                </tapGestureRecognizer>
+                </pinchGestureRecognizer>
             </objects>
         </scene>
     </scenes>

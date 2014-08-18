@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <MediaPlayer/MediaPlayer.h>
 
-@interface ViewController ()
+@interface ViewController () <MPMediaPickerControllerDelegate>
 
 @property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
 @property (nonatomic, strong) UIButton *playButton;
@@ -23,7 +23,7 @@
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self startPlayingVideo:nil];
+//    [self startPlayingVideo:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,6 +31,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 - (void)startPlayingVideo:(id)sender {
     NSBundle *mainBundle = [NSBundle mainBundle];
@@ -47,6 +48,8 @@
     if (self.moviePlayer != nil) {
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoHasFinishedPlaying:) name:MPMoviePlayerPlaybackDidFinishNotification object:self.moviePlayer];
         
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoThumbnailIsAvailabel:) name:MPMoviePlayerThumbnailImageRequestDidFinishNotification object:self.moviePlayer];
+        
         self.moviePlayer.scalingMode = MPMovieScalingModeAspectFit;
        
         [self.moviePlayer.view setFrame:self.view.frame];
@@ -55,12 +58,28 @@
         [self.moviePlayer setFullscreen:YES animated:NO];
         
         [self.moviePlayer play];
+        
+        NSNumber *thirdSecondThumbnail = @10.0f;
+        [self.moviePlayer requestThumbnailImagesAtTimes:@[thirdSecondThumbnail] timeOption:MPMovieTimeOptionExact];
+    }
+}
+
+- (void)videoThumbnailIsAvailabel:(NSNotification *)notification {
+    MPMediaPickerController *controller = [notification object];
+    
+    if ([controller isEqual:self.moviePlayer]) {
+        UIImage *thumbnail = [notification.userInfo objectForKey:MPMoviePlayerThumbnailImageKey];
+        
+        if (thumbnail != nil) {
+            
+        }
     }
 }
 
 - (void)stopPlayingVideo:(id)sender {
     if (self.moviePlayer != nil) {
         [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:self.moviePlayer];
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerThumbnailImageRequestDidFinishNotification object:self.moviePlayer];
         
         [self.moviePlayer stop];
         [self.moviePlayer.view removeFromSuperview];

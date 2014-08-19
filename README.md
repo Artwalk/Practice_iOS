@@ -23,10 +23,21 @@ OK, iOS 8 is coming...
 
 This book is killing me ...
 
+
+###15.3
+```objective-c
+NSURL *urlOfVideo = info[UIImagePickerControllerMediaType];
+```
+should be:  
+```objective-c
+NSURL *urlOfVideo = info[UIImagePickerControllerMediaURL];
+```
+
 ---
 
-[![image](http://img5.douban.com/mpic/s27296746.jpg)](http://book.douban.com/subject/25899841/)
+[![](http://img5.douban.com/mpic/s27296746.jpg)](http://book.douban.com/subject/25899841/)
 
 According to that book above, I'm afraid that I'll be dead before read this book ...
+
 
 ---

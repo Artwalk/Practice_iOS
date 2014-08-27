@@ -22,6 +22,7 @@
 		6EF2179E19AD927E00F02B42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF2177D19AD927D00F02B42 /* UIKit.framework */; };
 		6EF217A619AD927E00F02B42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EF217A419AD927E00F02B42 /* InfoPlist.strings */; };
 		6EF217A819AD927E00F02B42 /* _0_6_Drawing_LinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF217A719AD927E00F02B42 /* _0_6_Drawing_LinesTests.m */; };
+		6EF217B319AD930700F02B42 /* view.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF217B219AD930700F02B42 /* view.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		6EF217A319AD927E00F02B42 /* 20.6.Drawing LinesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "20.6.Drawing LinesTests-Info.plist"; sourceTree = "<group>"; };
 		6EF217A519AD927E00F02B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EF217A719AD927E00F02B42 /* _0_6_Drawing_LinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0_6_Drawing_LinesTests.m; sourceTree = "<group>"; };
+		6EF217B119AD930700F02B42 /* view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view.h; sourceTree = "<group>"; };
+		6EF217B219AD930700F02B42 /* view.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				6EF2178E19AD927D00F02B42 /* Main_iPad.storyboard */,
 				6EF2179119AD927D00F02B42 /* ViewController.h */,
 				6EF2179219AD927D00F02B42 /* ViewController.m */,
+				6EF217B119AD930700F02B42 /* view.h */,
+				6EF217B219AD930700F02B42 /* view.m */,
 				6EF2179419AD927E00F02B42 /* Images.xcassets */,
 				6EF2178019AD927D00F02B42 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF217B319AD930700F02B42 /* view.m in Sources */,
 				6EF2179319AD927D00F02B42 /* ViewController.m in Sources */,
 				6EF2178A19AD927D00F02B42 /* AppDelegate.m in Sources */,
 				6EF2178619AD927D00F02B42 /* main.m in Sources */,
